@@ -1,0 +1,30 @@
+#links {
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  background: #c6ffdd;
+  border-radius: .25rem;
+  padding: 15px;
+  margin: 20px;
+}
+
+.home {
+  background-color: #f89d80;
+}
+
+.about {
+  background-color: #fac284;
+}
+
+.portfolio {
+  background-color: #ede19b;
+}
+
+.contact {
+  background-color: #ddedb7;
+}

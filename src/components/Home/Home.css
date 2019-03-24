@@ -1,0 +1,101 @@
+.hello {
+  font-size: 100px;
+  line-height: 150px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  /* letter-spacing: -5px; */
+  mix-blend-mode: color-burn;
+  position: relative;
+  transition: top ease 0.1s;
+  transition-delay: 2s;
+  opacity: 0.9;
+  color: rgb(105, 105, 105);
+}
+
+.letter {
+  font-size: 200px;
+  line-height: 110px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  letter-spacing: -20px;
+  mix-blend-mode: color-burn;
+  position: relative;
+  transition: top ease 0.1s;
+  transition-delay: 2s;
+  opacity: 0.9;
+}
+
+
+#s {
+  color: #c6ffdd;
+}
+
+#i {
+  color: #d2f5c8;
+}
+
+#g {
+  color: #e6e6a7;
+}
+
+#r {
+  color: #f6da8d;
+}
+
+#i2 {
+  color: #fabc83;
+}
+
+#d {
+  color: #f8a080;
+}
+
+#period {
+  color: #f7807d;
+}
+
+p {
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  mix-blend-mode: color-burn;
+  position: relative;
+  transition: top ease 0.1s;
+  transition-delay: 2s;
+  opacity: 0.9;
+  color: rgb(105, 105, 105);
+}
+
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 50px;
+  }
+  100% {
+    top: 0px;
+}
+}
+
+
+@keyframes nikki {
+0% {
+  top: 0px;
+}
+50% {
+  top: 40px; color: rgb(105, 105, 105);
+}
+100% {
+  top: 0px;
+}
+}
+
+.hovered {
+animation: nikki 3s;
+}
+
+::selection {
+background: #b39ddb;
+}
