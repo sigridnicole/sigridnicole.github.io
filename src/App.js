@@ -1,17 +1,34 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home/Home';
 import Nav from './components/Nav/Nav';
-
-
+import About from './components/About/About';
+import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/Contact/Contact';
 
 class App extends Component {
-  render() {
+
+  constructor() {
+    super();
+    this.state = {
+      page: "home"
+    };
+  }
+
+  onPageChange = page => {
+    this.setState({page:page});
+  };
+
+   render() {
+    const { page } = this.state;
     return (
       <div className="App">
-        <Nav />
-        <Home />
+        <Nav onPageChange={this.onPageChange}/>
+        { page ==='about' ? <About /> :
+          page ==='portfolio'? <Portfolio /> :
+          page ==='contact' ? <Contact /> :
+          <Home />
+        }
       </div>
     );
   }

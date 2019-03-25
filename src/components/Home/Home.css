@@ -3,11 +3,8 @@
   line-height: 150px;
   font-family: 'Lato', sans-serif;
   font-weight: 800;
-  /* letter-spacing: -5px; */
   mix-blend-mode: color-burn;
   position: relative;
-  transition: top ease 0.1s;
-  transition-delay: 2s;
   opacity: 0.9;
   color: rgb(105, 105, 105);
 }
@@ -20,9 +17,25 @@
   letter-spacing: -20px;
   mix-blend-mode: color-burn;
   position: relative;
-  transition: top ease 0.1s;
+  transition: 4s;
   transition-delay: 2s;
   opacity: 0.9;
+}
+
+.letter:hover{
+  animation: slide-down 4s;
+}
+
+@keyframes slide-down {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 40px; color: rgb(105, 105, 105);
+  }
+  100% {
+    top: 0px;
+  }
 }
 
 
@@ -80,21 +93,8 @@ p {
 }
 
 
-@keyframes nikki {
-0% {
-  top: 0px;
-}
-50% {
-  top: 40px; color: rgb(105, 105, 105);
-}
-100% {
-  top: 0px;
-}
-}
 
-.hovered {
-animation: nikki 3s;
-}
+
 
 ::selection {
 background: #b39ddb;
