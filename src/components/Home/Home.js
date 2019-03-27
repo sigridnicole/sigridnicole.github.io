@@ -3,29 +3,29 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div id="content">
+    <div>
       <div id="name">
         <div className="hello">hello! this is</div>
-        <span className="logo">
-          <span id="s" className="letter">
+        <span>
+          <span className="letter c1">
             S
           </span>
-          <span id="i" className="letter">
+          <span className="letter c2">
             I
           </span>
-          <span id="g" className="letter">
+          <span className="letter c3">
             G
           </span>
-          <span id="r" className="letter">
+          <span className="letter c4">
             R
           </span>
-          <span id="i2" className="letter">
+          <span className="letter c5">
             I
           </span>
-          <span id="d" className="letter">
+          <span className="letter c6">
             D
           </span>
-          <span id="period" className="letter">
+          <span className="letter c7">
             ,
           </span>
         </span>

@@ -12,7 +12,7 @@ const Nav = ({ onPageChange }) => {
           About
         </button>
         <button className="portfolio" onClick={() => onPageChange("portfolio")}>
-          Portfolio
+          Works
         </button>
         <button className="contact" onClick={() => onPageChange("contact")}>
           Contact

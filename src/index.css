@@ -12,3 +12,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+/* COLOR SCHEME */
+.c1 {
+  color: #c6ffdd;
+}
+
+.c2 {
+  color: #d2f5c8;
+}
+
+.c3 {
+  color: #e6e6a7;
+}
+
+.c4 {
+  color: #f6da8d;
+}
+
+.c5 {
+  color: #fabc83;
+}
+
+.c6 {
+  color: #f8a080;
+}
+
+.c7 {
+  color: #f7807d;
+}
+
+.heading {
+  font-size: 100px;
+  line-height: 110px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  letter-spacing: -20px;
+  mix-blend-mode: color-burn;
+  position: relative;
+  opacity: 0.9;
+}
+
+.letter:hover, .heading:hover{
+  animation: color-change 2s;
+}
+
+@keyframes color-change {
+  50% {
+    color: #696969;
+    opacity: 0.9
+  }
+}
+
+.content {
+  font-size: 40px;
+  line-height: 110px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  /* letter-spacing: -20px; */
+  mix-blend-mode: color-burn;
+  position: relative;
+  color: #696969;
+  opacity: 0.9;
+}

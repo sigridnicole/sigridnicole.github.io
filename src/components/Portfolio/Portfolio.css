@@ -1,6 +1,10 @@
 .box {
-  background-color: pink;
-  padding: 100px;
+  font-family: 'Lato', sans-serif;
+  mix-blend-mode: color-burn;
+  color: #ffffff;
+  opacity: 0.9;
+  background-color: #f7807d;
+  padding: 50px;
   margin: 20px;
   transition: background 0.5s ease-in-out, 
   transform 0.5s ease;
@@ -17,4 +21,20 @@
 .box:focus {
   background: #696969;
   opacity: 0.9;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  margin: 50px 50px;
+  cursor: pointer;
+}
+
+
+.project-title {
+  font-size: 25px;
+}
+
+.project-content {
+  font-size: 17px;
 }
