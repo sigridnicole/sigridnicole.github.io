@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div id="content">
       <div id="name">
-        <div className="hello">Hello, this is</div>
+        <div className="hello">hello! this is</div>
         <span className="logo">
           <span id="s" className="letter">
             S
@@ -30,7 +30,7 @@ const Home = () => {
           </span>
         </span>
       </div>
-      <p>a Full-Stack React Developer. ;)</p>
+      <p>a Full-Stack Web Developer. ;)</p>
     </div>
   );
 };
