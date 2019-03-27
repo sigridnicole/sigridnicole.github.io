@@ -16,18 +16,18 @@ class App extends Component {
   }
 
   onPageChange = page => {
-    this.setState({page:page});
+    this.setState({ page: page });
   };
 
-   render() {
+  render() {
     const { page } = this.state;
     return (
       <div className="App">
-        <Nav onPageChange={this.onPageChange}/>
-        { page ==='about' ? <About /> :
-          page ==='portfolio'? <Portfolio /> :
-          page ==='contact' ? <Contact /> :
-          <Home />
+        <Nav onPageChange={this.onPageChange} />
+        {page === 'about' ? <About /> :
+          page === 'portfolio' ? <Portfolio /> :
+            page === 'contact' ? <Contact /> :
+              <Home />
         }
       </div>
     );
@@ -35,3 +35,4 @@ class App extends Component {
 }
 
 export default App;
+

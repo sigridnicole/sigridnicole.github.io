@@ -4,20 +4,6 @@ import "./Home.css";
 const Home = () => {
   return (
     <div id="content">
-      {Array.from(document.getElementsByClassName('letter')).forEach(letter => {
-          console.log("haha");
-          
-          letter.addEventListener("mouseover", (e) => {
-            letter.classList.add("hovered")
-            console.log("here");
-          })
-          letter.addEventListener("animationend", (e) => {
-            letter.classList.remove("hovered")
-            console.log("there");
-
-          })
-        })}
-
       <div id="name">
         <div className="hello">Hello, this is</div>
         <span className="logo">

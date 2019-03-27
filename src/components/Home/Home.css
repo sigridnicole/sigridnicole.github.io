@@ -76,26 +76,9 @@ p {
   transition: top ease 0.1s;
   transition-delay: 2s;
   opacity: 0.9;
-  color: rgb(105, 105, 105);
+  color: #696969;
 }
-
-
-@keyframes mymove {
-  0% {
-    top: 0px;
-  }
-  50% {
-    top: 50px;
-  }
-  100% {
-    top: 0px;
-}
-}
-
-
-
-
 
 ::selection {
-background: #b39ddb;
+background: #69696980;
 }
