@@ -1,9 +1,10 @@
 .box {
   font-family: 'Lato', sans-serif;
   mix-blend-mode: color-burn;
-  color: #ffffff;
+  color: #696969;
   opacity: 0.9;
-  background-color: #f7807d;
+  background-color: #fabc83;
+
   padding: 50px;
   margin: 20px;
   transition: background 0.5s ease-in-out, 
@@ -13,14 +14,13 @@
 .projectGrid {
   margin: 40px;
   display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
 }
 
 .box:hover,
 .box:focus {
-  background: #696969;
-  opacity: 0.9;
+  background: #e6e6a7;
 }
 
 img {
@@ -30,11 +30,27 @@ img {
   cursor: pointer;
 }
 
-
 .project-title {
-  font-size: 25px;
+  font-size: 50px;
+  font-weight: 700;
+  margn-top: 30px;
 }
 
 .project-content {
-  font-size: 17px;
+  font-size: 25px;
+  margin: 30px;
+}
+
+a {
+  /* text-decoration: underline; */
+  font-size: 25px;
+  color: #6458abc1;
+  margin: 10px;
+  margin-bottom: 30px
+
+}
+
+.icons {
+  margin-top: 20px;
+  font-size: 40px;
 }

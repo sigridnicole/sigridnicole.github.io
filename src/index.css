@@ -13,7 +13,6 @@ code {
     monospace;
 }
 
-
 /* COLOR SCHEME */
 .c1 {
   color: #c6ffdd;
@@ -70,7 +69,6 @@ code {
   line-height: 110px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  /* letter-spacing: -20px; */
   mix-blend-mode: color-burn;
   position: relative;
   color: #696969;
