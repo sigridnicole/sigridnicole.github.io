@@ -21,6 +21,22 @@ const About = () => {
             T
           </span>
         </span>
+        <p className="content">
+          I am a full-stack web developer
+          <br />
+          &
+          <br />
+          I especially  like it in Javascript. :D
+          <br />
+        </p>
+        <p className="content-medium">
+          Some things that I can't compromise:
+          <br />
+          cooking, reading, music, games and anime.
+          <br />
+          <br />
+          Thanks for dropping by! ;)
+        </p>
       </div>
     </div>
   );

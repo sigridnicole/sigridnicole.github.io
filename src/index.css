@@ -66,11 +66,36 @@ code {
 
 .content {
   font-size: 40px;
-  line-height: 110px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   mix-blend-mode: color-burn;
   position: relative;
   color: #696969;
   opacity: 0.9;
+  margin-block-start: 1em;
+  margin-block-end: 0;
+}
+
+.content-medium {
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  mix-blend-mode: color-burn;
+  position: relative;
+  color: #696969;
+  opacity: 0.9;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.content-small {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  mix-blend-mode: color-burn;
+  position: relative;
+  color: #696969;
+  opacity: 0.9;
+  margin-block-start: 1em;
+  margin-block-end: 0;
 }
