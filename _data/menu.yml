@@ -1,0 +1,11 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: about
+    entries:
+      - title: Backend Developer
+      - title: github
+        url: https://github.com/sigridnicole
+      - title: email
+        url: mailto:sigridncl@gmail.com
