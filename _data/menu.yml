@@ -4,8 +4,26 @@
 entries:
   - title: about
     entries:
-      - title: Backend Developer
+      - title: backend developer among other things.
+  - title: work things
+    post_list:
+      limit: 5
+      category: work
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: example2-archive.html
+  - title: what else?
+    post_list:
+      limit: 5
+      category: what-else
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: example2-archive.html
+  - title: contact
+    entries:
       - title: github
         url: https://github.com/sigridnicole
+      - title: linkedin
+        url: https://www.linkedin.com/in/sigridnicole
       - title: email
         url: mailto:sigridncl@gmail.com
